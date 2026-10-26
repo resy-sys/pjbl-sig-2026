@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Repositori PjBL SIG 2026</title>
+<!--
+  CARA MENGISI TAUTAN
+  Cari href="" lalu tempel alamat lengkap di antara tanda kutip, contoh: href="https://drive.google.com/..."
+  Baris yang href-nya kosong otomatis tampil "Segera tersedia" dan tidak bisa diklik.
+  Untuk menambah baris, salin satu blok <a class="item" ...> ... </a> lalu ubah isinya.
+-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap">
+<style>
+  :root{
+    --bg:#f2f5fa; --card:#ffffff; --ink:#2b3245; --muted:#5e6679; --line:#d3dae6;
+    --navy:#242852; --deep:#141a3f; --teal:#00a6a6; --teal-d:#018790; --orange:#e3651d; --red:#c8361b;
+    --tint:#e2f4f4;
+  }
+  @media (prefers-color-scheme: dark){:root{
+    --bg:#0f1330; --card:#1a1f45; --ink:#e8eaf3; --muted:#a7afc6; --line:#2c3363;
+    --navy:#c9d2f2; --tint:#123a45;
+  }}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;font-size:16px;line-height:1.5}
+  .wrap{max-width:640px;margin:0 auto;padding-left:16px;padding-right:16px}
+
+  header{background:linear-gradient(135deg,#141a3f 0%,#2e3a7a 100%);color:#fff}
+  header .wrap{padding-top:40px;padding-bottom:32px}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7fdcdc;margin:0}
+  h1{font-family:Lora,Georgia,serif;font-size:34px;line-height:1.1;margin:10px 0 8px}
+  h1 span{color:#f2a33a}
+  .sub{margin:0;color:#c9d2e6}
+  .topic{margin-top:18px;display:flex;gap:12px;align-items:center;background:rgba(255,255,255,.1);border-radius:12px;padding:10px 14px}
+  .topic p{margin:0;font-size:15px}
+
+  main .wrap{padding-top:28px;padding-bottom:48px}
+  section{margin-bottom:26px}
+  h2{display:flex;align-items:center;gap:10px;font-family:Lora,Georgia,serif;font-size:19px;color:var(--navy);margin:0 0 10px}
+
+  .ic{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--teal),var(--teal-d))}
+  .ic svg{width:20px;height:20px}
+  .ic.navy{background:linear-gradient(135deg,#242852,#3a4285)}
+  .ic.orange{background:linear-gradient(135deg,var(--orange),var(--red))}
+  .ic.sm{width:34px;height:34px}
+  .ic.sm svg{width:17px;height:17px}
+
+  .item{display:flex;align-items:center;gap:14px;background:var(--card);border-radius:12px;padding:12px 14px;margin-bottom:10px;
+        box-shadow:0 4px 14px rgba(26,32,64,.10);color:var(--ink);text-decoration:none;transition:transform .15s,box-shadow .15s}
+  .item:hover,.item:focus-visible{transform:translateY(-2px);box-shadow:0 8px 20px rgba(26,32,64,.16);outline:none}
+  .item:focus-visible{box-shadow:0 0 0 3px var(--teal)}
+  .item .txt{flex:1;min-width:0}
+  .item b{display:block;font-size:16px}
+  .item small{display:block;color:var(--muted);font-size:13.5px}
+  .item .tag{flex:none;font-size:12px;font-weight:700;color:var(--teal-d);background:var(--tint);border-radius:999px;padding:3px 10px}
+  .item::after{content:"Buka \2197";flex:none;font-size:13px;font-weight:700;color:var(--orange)}
+  .item[href=""]{pointer-events:none;box-shadow:none;background:transparent;border:1px dashed var(--line)}
+  .item[href=""] b{color:var(--muted)}
+  .item[href=""] .ic{background:var(--line)}
+  .item[href=""]::after{content:"Segera tersedia";font-weight:400;font-style:italic;color:var(--muted)}
+  footer{text-align:left;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+  @media (prefers-reduced-motion:reduce){.item{transition:none}}
+  @media (max-width:420px){.item .tag{display:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Teknik Geodesi dan Geomatika · ITB</p>
+    <h1>Repositori <span>PjBL SIG 2026</span></h1>
+    <p class="sub">GD4103 Sistem Informasi Geografis</p>
+    <div class="topic">
+      <div class="ic orange sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 22c4 0 7-2.8 7-6.8 0-3.6-2.4-6-4-8.2-.4 2.4-1.6 3.6-3 4.2.4-3.4-1-6.6-4-9.2.2 4-3 6.6-3 11.6C5 19.2 8 22 12 22z"/></svg></div>
+      <p>Analisis GIS untuk Pemodelan Bahaya dan Dampak Kebakaran Hutan dan Lahan</p>
+    </div>
+  </div>
+</header>
+
+<main><div class="wrap">
+
+  <section>
+    <h2><span class="ic navy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 2h8l4 4v16H6z"/><path d="M14 2v4h4M9 12h6M9 16h6"/></svg></span>Dokumen</h2>
+    <a class="item" href="https://drive.google.com/drive/folders/1FwG79YaVoqBzgMN1cWSbdARP0HaDkEo4?usp=drive_link" target="_blank" rel="noopener">
+      <span class="txt"><b>Kerangka Acuan Kerja (KAK)</b><small>Tujuan, ketentuan, kegiatan, data dasar, luaran, linimasa</small></span>
+    </a>
+    <a class="item" href="" target="_blank" rel="noopener">
+      <span class="txt"><b>Slide penjelasan KAK</b><small>Materi Pertemuan 1</small></span><span class="tag">27 Okt</span>
+    </a>
+  </section>
+
+  <section>
+    <h2><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14c2.3.2 3.9 1.8 4.5 4.5"/></svg></span>Kelompok &amp; Wilayah Studi</h2>
+    <a class="item" href="https://drive.google.com/drive/folders/1sGnhvAn-xKGmekvqe7z05XZOZjrWrpiM?usp=sharing" target="_blank" rel="noopener">
+      <span class="txt"><b>Pembagian kelompok dan wilayah studi</b><small>Isi NIM dan nama; 3 provinsi per kelas (Sumatera, Kalimantan, Papua)</small></span>
+    </a>
+  </section>
+
+  <section>
+    <h2><span class="ic orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v4h16v-4"/></svg></span>Pengumpulan</h2>
+    <a class="item" href="" target="_blank" rel="noopener"><span class="txt"><b>Proposal</b><small>Wilayah, periode, tujuan, parameter awal</small></span><span class="tag">3 Nov</span></a>
+    <a class="item" href="" target="_blank" rel="noopener"><span class="txt"><b>Kebutuhan &amp; ketersediaan data</b><small>Inventaris data, sumber, resolusi, celah data</small></span><span class="tag">10 Nov</span></a>
+    <a class="item" href="" target="_blank" rel="noopener"><span class="txt"><b>Metodologi</b><small>Alur kerja, pembobotan, validasi, rancangan WebGIS</small></span><span class="tag">17 Nov</span></a>
+    <a class="item" href="" target="_blank" rel="noopener"><span class="txt"><b>Hasil &amp; demo WebGIS</b><small>Model dan demo WebGIS</small></span><span class="tag">24 Nov</span></a>
+    <a class="item" href="" target="_blank" rel="noopener"><span class="txt"><b>Analisis</b><small>Validasi, analisis dampak, demo WebGIS</small></span><span class="tag">1 Des</span></a>
+    <a class="item" href="" target="_blank" rel="noopener"><span class="txt"><b>Laporan akhir &amp; WebGIS final</b><small>Laporan, tautan WebGIS, data dan berkas pendukung</small></span><span class="tag">UAS</span></a>
+  </section>
+
+  <section>
+    <h2><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span>Penilaian</h2>
+    <a class="item" href="" target="_blank" rel="noopener"><span class="txt"><b>Penilaian antar kelompok</b><small>Diisi saat presentasi kelompok lain</small></span></a>
+    <a class="item" href="" target="_blank" rel="noopener"><span class="txt"><b>Penilaian anggota kelompok</b><small>Kontribusi setiap rekan dalam kelompok</small></span></a>
+  </section>
+
+  <section>
+    <h2><span class="ic navy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9S14.6 18.4 12 21c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z"/></svg></span>Data &amp; Referensi</h2>
+    <a class="item" href="https://tanahair.indonesia.go.id/" target="_blank" rel="noopener"><span class="txt"><b>Ina-Geoportal BIG</b><small>Batas administrasi, jalan, sungai, DEMNAS</small></span></a>
+    <a class="item" href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener"><span class="txt"><b>NASA FIRMS</b><small>Titik api VIIRS 375 m dan MODIS</small></span></a>
+    <a class="item" href="https://sipongi.menlhk.go.id/" target="_blank" rel="noopener"><span class="txt"><b>SiPongi</b><small>Sistem pemantauan karhutla</small></span></a>
+    <a class="item" href="https://kobong.mapbiomas.id/?y=2026&amp;ms=1&amp;me=9" target="_blank" rel="noopener"><span class="txt"><b>MapBiomas Indonesia</b><small>Luas area terbakar bulanan</small></span></a>
+    <a class="item" href="https://www.ready.noaa.gov/HYSPLIT.php" target="_blank" rel="noopener"><span class="txt"><b>NOAA HYSPLIT</b><small>Model lintasan dan dispersi asap</small></span></a>
+  </section>
+
+  <footer>Tim Dosen PjBL SIG 2026 · Teknik Geodesi dan Geomatika ITB</footer>
+
+</div></main>
+</body>
+</html>
